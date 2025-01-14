@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Organize. Achieve. Relax.</h1>
+      <p>Simplify your life with our Todo App</p>
+      <button id="open-modal">Start Organizing</button>
+    </div>
+  </header>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>Customer Testimonials</h2>
+    <div class="testimonial">
+      <p>“Using this app has made my life easier and more organized.”</p>
+      <span>- Happy User</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Todo App. All rights reserved.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h2>Join Now</h2>
+      <form id="signup-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="number" id="phone" placeholder="Phone Number" required>
+        <button type="submit">Submit</button>
+      </form>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
